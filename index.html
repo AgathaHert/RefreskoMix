@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>RefreskoMix</title>
+</head>
+
+<body>
+  <main>
+    <div class="item active" style="--background: #ea3d41">
+      <div class="title">Morango</div>
+      <img src="./assets/fundo-de-morango.png" alt="fruta-morango" class="fruit">
+      <img src="./assets/Morango-refrigerante.png" alt="lata-morango" class="refri">
+    </div>
+    <div class="item" style="--background: #2d5643">
+      <div class="title">Abacate</div>
+      <img src="./assets/fundo-de-abacate.png" alt="fruta-abacate" class="fruit">
+      <img src="./assets/Abacate-refrigerante.png" alt="lata-abacate" class="refri">
+    </div>
+    <div class="item" style="--background: #e7a043">
+      <div class="title">Laranja</div>
+      <img src="./assets/fundo-citrico-laranja.png" alt="fruta-laranja" class="fruit">
+      <img src="./assets/Laranja-refrigerante.png" alt="lata-laranja" class="refri">
+    </div>
+    <div class="arrow">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </main>
+  <audio id="backgroundMusic" loop>
+    <source src="./assets/stomp-snaps-111917.mp3" type="audio/mpeg">
+    Seu navegador não suporta o elemento de áudio.
+  </audio>
+  <button id="playButton">Tocar Música</button>
+  <div id="audioNotice">Clique em qualquer lugar para ativar o áudio</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
